@@ -20,6 +20,9 @@ do
 	wget "$l"
 done &
 
+# Found this: http://subgenius.com/ts/hos2.html
+# maybe add?
+
 # EVEN OLDER Hours of Slack:
 wget http://db8.ca/radioarchive/hos/ -O index.html
 for l in `grep -ioE 'Hour.*\.(mp3)' index.html`
